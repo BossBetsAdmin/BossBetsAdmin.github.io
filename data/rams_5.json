@@ -1,0 +1,31 @@
+{
+  "name": "Rams Superbowl Champion +200 #5",
+  "symbol": "BB",
+  "description": "Rams Superbowl odds pre-conference championship",
+  "seller_fee_basis_points": 100,
+  "external_url": "",
+  "edition": "",
+  "background_color": "000000",
+  "attributes": [
+    {
+      "trait_type": "Creators",
+      "value": "One"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "AErHkGeoLErKUiAxiMxMKeyHhpS6o23zWHuQJ5zAH88R",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://bossbetsadmin.github.io/images/nfl_sb_2022_rams.png",
+        "file_type": "image/png"
+      }
+    ]
+  },
+  "image": "https://bossbetsadmin.github.io/images/nfl_sb_2022_rams.png"
+}
