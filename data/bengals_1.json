@@ -1,31 +1,32 @@
 {
-  "name": "Bengals Superbowl Champion +800 #1",
-  "symbol": "BB",
-  "description": "Bengals Superbowl odds pre-conference championship",
-  "seller_fee_basis_points": 500,
-  "external_url": "",
-  "edition": "",
-  "background_color": "000000",
-  "attributes": [
-    {
-      "trait_type": "Creators",
-      "value": "One"
-    }
-  ],
-  "properties": {
-    "category": "image",
-    "creators": [
+    "name": "Bengals Superbowl Champion +800 #1",
+    "symbol": "BB",
+    "description": "Bengals Superbowl odds pre-conference championship",
+    "seller_fee_basis_points": 500,
+    "external_url": "",
+    "edition": "",
+    "background_color": "000000",
+    "attributes": [
       {
-        "address": "AErHkGeoLErKUiAxiMxMKeyHhpS6o23zWHuQJ5zAH88R",
-        "share": 100
+        "trait_type": "Creators",
+        "value": "One"
       }
     ],
-    "files": [
-      {
-        "uri": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png",
-        "file_type": "image/png"
-      }
-    ]
-  },
-  "image": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png"
-}
+    "properties": {
+      "category": "image",
+      "creators": [
+        {
+          "address": "AErHkGeoLErKUiAxiMxMKeyHhpS6o23zWHuQJ5zAH88R",
+          "share": 100
+        }
+      ],
+      "files": [
+        {
+          "uri": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png",
+          "file_type": "image/png"
+        }
+      ]
+    },
+    "image": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png"
+  }
+  
