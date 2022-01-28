@@ -1,0 +1,13 @@
+{
+    "name": "KC Superbowl Champion +120 #3",
+    "symbol": "BB",
+    "uri": "https://bossbetsadmin.github.io/data/chiefs_3.json",
+    "seller_fee_basis_points": 500,
+    "creators": [
+        {
+            "address": "AErHkGeoLErKUiAxiMxMKeyHhpS6o23zWHuQJ5zAH88R",
+            "verified": false,
+            "share": 100
+        }
+    ]
+}
