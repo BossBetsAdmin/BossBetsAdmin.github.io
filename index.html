@@ -28,16 +28,21 @@
                 console.log('error: ' + err);
             });
             function displayData(data) {
-                const eventData = data.response.events;
+                const nftData = data.response.nftResult;
+                console.log(nftData);
                 var eventHtml = "";
-                for (const index in eventData){
+                for (const index in nftData){
                     //construct html element and then add to eventInfo
-                    const individualEvent = eventData[index];
+                    const eventData = nftData[index].event;
+                    const lineData = nftData[index].line;
+                    const betData = nftData[index].bet;
+                    console.log(nftData[index]);
+                    /*
                     const eventId = individualEvent.eventId;
                     const eventName = individualEvent.lineName;
                     const eventDescription = individualEvent.lineDescription;
                     const imageUrl = individualEvent.lineGraphic;
-                    eventHtml += `<div id=${eventId}> <p>${eventName}</p> <p>${eventDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`
+                    eventHtml += `<div id=${eventId}> <p>${eventName}</p> <p>${eventDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`*/
                 }
                 const dataDiv = document.getElementById("eventInfo");
                 dataDiv.innerHTML = eventHtml;

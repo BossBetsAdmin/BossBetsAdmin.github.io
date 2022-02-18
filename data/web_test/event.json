@@ -1,6 +1,6 @@
 { 
     "response":{
-        "nft_result":[
+        "nftResult":[
             {
                 "event":{
                     "eventId": 0,
