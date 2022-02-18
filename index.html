@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JSON Test</title>
 </head>
+
+<style>
+    .img_formatting {
+        width: 10%;
+    }
+</style>
+
+
 <body>
     <div id="eventInfo"><p>test</p></div>
     <script>
@@ -20,15 +28,28 @@
                 console.log('error: ' + err);
             });
             function displayData(data) {
-                console.log(data);
+                const eventData = data.response.events;
+                var eventHtml = "";
+                for (const index in eventData){
+                    //construct html element and then add to eventInfo
+                    const individualEvent = eventData[index];
+                    const eventId = individualEvent.eventId;
+                    const eventName = individualEvent.lineName;
+                    const eventDescription = individualEvent.lineDescription;
+                    const imageUrl = individualEvent.lineGraphic;
+                    eventHtml += `<div id=${eventId}> <p>${eventName}</p> <p>${eventDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`
+                }
+                const dataDiv = document.getElementById("eventInfo");
+                dataDiv.innerHTML = eventHtml;
+                /*
                 for (var i = 0; i < data.length; i++){
                     console.log(event[i]);
-                    //const eventName = event[i].lineDescription;
-                    //console.log(eventName);
+                    const eventName = event[i].lineDescription;
+                    console.log(eventName);
                 }
-                //const imageUrl = data.lineGraphic;
-                //const dataDiv = document.getElementById("eventInfo");
-                //dataDiv.innerHTML = "<h1>" + eventName + "</h1>";
+                const imageUrl = data.lineGraphic;
+                const dataDiv = document.getElementById("eventInfo");
+                dataDiv.innerHTML = "<h1>" + eventName + "</h1>";*/
             }   
     </script>
 </body>
