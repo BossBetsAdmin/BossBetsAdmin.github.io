@@ -1,12 +1,7 @@
-{
-    "betId": {0}
-    "lineId": {0}
-    "number": {1},
-    "stake": {1},
-    "payout": {10},
-    "odds": {"+900"},
-    "token": {"Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY"},
-    "timeplace": {"sometime"}
-  }
-
-  
+  {
+    "eventId": 0,
+    "eventName": "NBA MVP",
+    "eventType": "NBA",
+    "eventDate": "2022-10-15",
+    "eventExpiration": "some_time_here"
+}
