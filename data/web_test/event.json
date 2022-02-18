@@ -47,8 +47,8 @@
                     "lineOdds": "+500"
                 },
                 "bet":{
-                    "betId": 0,
-                    "lineId": 0,
+                    "betId": 1,
+                    "lineId": 1,
                     "number": 1,
                     "stake": 1,
                     "payout": 6,
