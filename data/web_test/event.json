@@ -1,7 +1,15 @@
 { 
     "response":{
-        "events":[
-                {
+        "nft_result":[
+            {
+                "event":{
+                    "eventId": 0,
+                    "eventName": "NBA MVP",
+                    "eventType": "NBA",
+                    "eventDate": "2022-10-15",
+                    "eventExpiration": "some_time_here"
+                },
+                "line":{
                     "lineId": 0,
                     "eventId": 0,
                     "lineName": "Ja Morant MVP",
@@ -10,16 +18,49 @@
                     "lineDescription": "Ja Morant to win NBA mvp",
                     "lineOdds": "+900"
                 },
-                {
+                "bet":{
+                    "betId": 0,
+                    "lineId": 0,
+                    "number": 1,
+                    "stake": 1,
+                    "payout": 10,
+                    "odds": "+900",
+                    "token": "Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY",
+                    "timeplace": "sometime"
+                }
+            },
+            {
+                "event":{
+                    "eventId": 0,
+                    "eventName": "NBA MVP",
+                    "eventType": "NBA",
+                    "eventDate": "2022-10-15",
+                    "eventExpiration": "some_time_here"
+                },
+                "line":{
                     "lineId": 1,
-                    "eventId": 1,
+                    "eventId": 0,
                     "lineName": "Lebron James MVP",
                     "lineType": "Future",
                     "lineGraphic": "https://bossbetsadmin.github.io/images/nfl_sb_2022_49ers.png",
                     "lineDescription": "Lebron James to win NBA mvp",
                     "lineOdds": "+500"
+                },
+                "bet":{
+                    "betId": 0,
+                    "lineId": 0,
+                    "number": 1,
+                    "stake": 1,
+                    "payout": 6,
+                    "odds": "+500",
+                    "token": "Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY",
+                    "timeplace": "sometime"
                 }
+            }
         ]
     },
     "code": 200
 }
+
+
+
