@@ -21,10 +21,14 @@
             });
             function displayData(data) {
                 console.log(data);
-                const eventName = data.lineDescription;
-                const imageUrl = data.lineGraphic;
-                const dataDiv = document.getElementById("eventInfo");
-                dataDiv.innerHTML = "<h1>" + eventName + "</h1>";
+                for (var i = 0; i < data.length; i++){
+                    console.log(event[i]);
+                    //const eventName = event[i].lineDescription;
+                    //console.log(eventName);
+                }
+                //const imageUrl = data.lineGraphic;
+                //const dataDiv = document.getElementById("eventInfo");
+                //dataDiv.innerHTML = "<h1>" + eventName + "</h1>";
             }   
     </script>
 </body>
