@@ -1,9 +1,20 @@
-{
-    "lineId": 0,
-    "eventId": 0,
-    "lineName": "Ja Morant MVP",
-    "lineType": "Future",
-    "lineGraphic": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png",
-    "lineDescription": "Ja Morant to win NBA mvp",
-    "lineOdds": "+900"
-  }
+[
+    {
+        "lineId": 0,
+        "eventId": 0,
+        "lineName": "Ja Morant MVP",
+        "lineType": "Future",
+        "lineGraphic": "https://bossbetsadmin.github.io/images/nfl_sb_2022_bengals.png",
+        "lineDescription": "Ja Morant to win NBA mvp",
+        "lineOdds": "+900"
+    },
+    {
+        "lineId": 1,
+        "eventId": 1,
+        "lineName": "Lebron James MVP",
+        "lineType": "Future",
+        "lineGraphic": "https://bossbetsadmin.github.io/images/nfl_sb_2022_49ers.png",
+        "lineDescription": "Lebron James to win NBA mvp",
+        "lineOdds": "+500"
+    }
+]
