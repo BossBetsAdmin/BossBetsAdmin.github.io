@@ -8,8 +8,15 @@
 </head>
 
 <style>
+    .nft_tile{
+        float: left;
+        width: 21%;
+        padding: 10px;
+        height: 250px;
+    }
     .img_formatting {
-        width: 10%;
+        width: 50%;
+        float:left;
     }
 </style>
 
@@ -42,7 +49,7 @@
                     const lineName = lineData.lineName;
                     const lineDescription = lineData.lineDescription;
                     const imageUrl = lineData.lineGraphic;
-                    eventHtml += `<div id=${eventId}> <p>${lineName}</p> <p>${lineDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`;
+                    eventHtml += `<div class="nft_tile" id=${eventId}> <p>${lineName}</p> <p>${lineDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`;
                 }
                 const dataDiv = document.getElementById("eventInfo");
                 dataDiv.innerHTML = eventHtml;

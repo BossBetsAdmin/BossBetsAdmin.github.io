@@ -56,6 +56,62 @@
                     "token": "Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY",
                     "timeplace": "sometime"
                 }
+            },
+            {
+                "event":{
+                    "eventId": 0,
+                    "eventName": "NBA MVP",
+                    "eventType": "NBA",
+                    "eventDate": "2022-10-15",
+                    "eventExpiration": "some_time_here"
+                },
+                "line":{
+                    "lineId": 1,
+                    "eventId": 0,
+                    "lineName": "Lebron James MVP",
+                    "lineType": "Future",
+                    "lineGraphic": "https://bossbetsadmin.github.io/images_dat/nfl_sb_2022_49ers.png",
+                    "lineDescription": "Lebron James to win NBA mvp",
+                    "lineOdds": "+500"
+                },
+                "bet":{
+                    "betId": 1,
+                    "lineId": 1,
+                    "number": 1,
+                    "stake": 1,
+                    "payout": 6,
+                    "odds": "+500",
+                    "token": "Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY",
+                    "timeplace": "sometime"
+                }
+            },
+            {
+                "event":{
+                    "eventId": 0,
+                    "eventName": "NBA MVP",
+                    "eventType": "NBA",
+                    "eventDate": "2022-10-15",
+                    "eventExpiration": "some_time_here"
+                },
+                "line":{
+                    "lineId": 1,
+                    "eventId": 0,
+                    "lineName": "Lebron James MVP",
+                    "lineType": "Future",
+                    "lineGraphic": "https://bossbetsadmin.github.io/images_dat/nfl_sb_2022_49ers.png",
+                    "lineDescription": "Lebron James to win NBA mvp",
+                    "lineOdds": "+500"
+                },
+                "bet":{
+                    "betId": 1,
+                    "lineId": 1,
+                    "number": 1,
+                    "stake": 1,
+                    "payout": 6,
+                    "odds": "+500",
+                    "token": "Cc5AL7GhX4AnrHgVHd4YzBMURwLGr5zFqxUmFnkntYJY",
+                    "timeplace": "sometime"
+                }
             }
         ]
     },
