@@ -10,13 +10,26 @@
 <style>
     .nft_tile{
         float: left;
-        width: 21%;
+        width: 30%;
         padding: 10px;
         height: 250px;
+        text-align: center;
+        margin-bottom:5%;
+    }
+    .nft_tile a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-decoration: none; /* No underlines on the link */
+        z-index: 10; /* Places the link above everything else in the div */
+        background-color: #FFF; /* Fix to make div clickable in IE */
+        opacity: 0; /* Fix to make div clickable in IE */
+        filter: alpha(opacity=1); /* Fix to make div clickable in IE */
     }
     .img_formatting {
         width: 50%;
-        float:left;
     }
 </style>
 
@@ -36,6 +49,7 @@
             });
             function displayData(data) {
                 const nftData = data.response.nftResult;
+                const marketPrefix = "https://solsea.io/nft/"
                 //console.log(nftData);
                 var eventHtml = "";
                 for (const index in nftData){
@@ -49,7 +63,11 @@
                     const lineName = lineData.lineName;
                     const lineDescription = lineData.lineDescription;
                     const imageUrl = lineData.lineGraphic;
-                    eventHtml += `<div class="nft_tile" id=${eventId}> <p>${lineName}</p> <p>${lineDescription}</p> <img class="img_formatting" src=${imageUrl}> </div>`;
+                    const listingUrl = marketPrefix + betData.token;
+                    eventHtml += `<div class="nft_tile" id=${eventId}> 
+                    <a href="${listingUrl}"></a>
+                    <img class="img_formatting" src=${imageUrl}>
+                    <p>${lineName}</p> <p>${lineDescription}</p></div>`;
                 }
                 const dataDiv = document.getElementById("eventInfo");
                 dataDiv.innerHTML = eventHtml;
